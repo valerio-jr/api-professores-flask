@@ -12,7 +12,7 @@ JSON (Base de dados local)
 Clone o repositório:
 
 Bash
-git clone https://github.com/valerio-jr/atividades-disciplina-PROGRAMA-O-PARA-WEB-I.git
+git clone https://github.com/valerio-jr/api-professores-flask.git
 Instale a dependência necessária (Flask):
 
 Bash
@@ -27,13 +27,11 @@ A API estará rodando em: http://127.0.0.1:5000
 Abaixo estão listados todos os endpoints disponíveis na API para a manipulação dos dados de professores. Esta seção serve como a documentação oficial das rotas do projeto.
 
 Método	Rota	Descrição	Exemplo de JSON (Corpo da Requisição)
-
 GET	/professores	Retorna a lista completa de todos os professores cadastrados.	N/A
 GET	/professores/<id>	Consulta e retorna os detalhes de um professor específico pelo seu ID.	N/A
 POST	/professores	Cadastra um novo professor no sistema. Requer nome, email e disciplina.	{"nome": "Fulano", "email": "fulano@email.com", "disciplina": "Web"}
 PUT	/professores/<id>	Atualiza os dados de um professor já existente no sistema.	{"nome": "Nome Atualizado"}
 DELETE	/professores/<id>	Remove permanentemente um professor do banco de dados (JSON).	N/A
-
 📂 Estrutura do Projeto
 app.py: Código fonte contendo a lógica das rotas, tratamento de erros e manipulação do JSON.
 
