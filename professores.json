@@ -1,0 +1,14 @@
+[
+    {
+        "nome": "Ana Costa",
+        "email": "ana@escola.com",
+        "disciplina": "História",
+        "id": 2
+    },
+    {
+        "nome": "Maria Oliveira",
+        "email": "maria@escola.com",
+        "disciplina": "Português",
+        "id": 3
+    }
+]
